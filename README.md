@@ -1,5 +1,7 @@
 # Docksal powered Drupal 11 With Composer Installation
 
+[![Install boilerplate](https://github.com/malhar-c/docksal-boilerplate-drupal11-composer/actions/workflows/install.yml/badge.svg)](https://github.com/malhar-c/docksal-boilerplate-drupal11-composer/actions/workflows/install.yml)
+
 This is a sample Drupal 11 with Composer installation pre-configured for use with Docksal.
 
 Features:
@@ -21,28 +23,28 @@ Follow [Docksal environment setup instructions](https://docs.docksal.io/getting-
 
 1. Clone this repo into your Projects directory
 
-    ```
-    git clone https://github.com/docksal/boilerplate-drupal11-composer.git drupal11
-    cd drupal11
-    ```
+   ```
+   git clone https://github.com/docksal/boilerplate-drupal11-composer.git drupal11
+   cd drupal11
+   ```
 
 2. Initialize the site
 
    This will initialize local settings and install the site via drush
 
-    ```
-    fin init
-    ```
+   ```
+   fin init
+   ```
+
    A `composer.lock` file will be generated. This file should be committed to your repository.
 
 3. Point your browser to
 
-    ```
-    http://drupal11.docksal.site
-    ```
+   ```
+   http://drupal11.docksal.site
+   ```
 
 When the automated install is complete, the command line output will display the admin username and password.
-
 
 ## More automation with 'fin init'
 
@@ -56,7 +58,6 @@ Some common tasks that can be handled by the init script (and other [custom comm
 - compile Sass
 - run DB updates, revert features, clear caches, etc.
 - enable/disable modules, update variables values
-
 
 ## Security notice
 
